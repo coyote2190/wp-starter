@@ -87,12 +87,12 @@ function starter_enqueue_assets()
   }
 
   // Google Fonts
-  // wp_enqueue_style(
-  //   "google-fonts",
-  //   "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap",
-  //   [],
-  //   null,
-  // );
+  wp_enqueue_style(
+    "google-fonts",
+    "https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&family=Sacramento&display=swap",
+    [],
+    null,
+  );
 }
 add_action("wp_enqueue_scripts", "starter_enqueue_assets");
 
