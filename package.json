@@ -1,0 +1,37 @@
+{
+  "name": "wp-starter",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/coyote2190/wp-starter#readme",
+  "bugs": {
+    "url": "https://github.com/coyote2190/wp-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coyote2190/wp-starter.git"
+  },
+  "license": "ISC",
+ "author": "Yannick Khalfouni",
+  "type": "module",
+  "main": "src/js/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"**/*.{js,jsx,json,css,scss,md,php}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,json,css,scss,md,php}\""
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.24.0",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "prettier": "^3.7.4",
+    "sass-embedded": "^1.97.2",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.3.1",
+    "vite-plugin-live-reload": "^3.0.5"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

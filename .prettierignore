@@ -1,0 +1,20 @@
+# Dépendances
+node_modules/
+vendor/
+
+# Build
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# WordPress
+wp-admin/
+wp-includes/
+
+# Divers
+.DS_Store
+*.min.js
+*.min.css
