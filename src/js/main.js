@@ -1,4 +1,17 @@
 // Main JavaScript entry point
-import "../scss/style.scss";
+import "../css/app.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-console.log("Bienvenue sur le Wordpress Starter !");
+// ===== TÉMOIGNAGES : slider =====
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("Bienvenue sur le Wordpress Starter !");
+});
+
+// Initialiser AOS
+AOS.init({
+  duration: 800,
+  easing: "ease-in-out",
+  once: true,
+  offset: 100,
+});

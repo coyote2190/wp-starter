@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import { resolve } from "path";
 import liveReload from "vite-plugin-live-reload";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   build: {
@@ -17,6 +18,7 @@ export default defineConfig({
     },
   },
   plugins: [
+    tailwindcss(),
     liveReload([
       // Surveiller tous les fichiers PHP du thème
       __dirname + "/**/*.php",

@@ -89,7 +89,7 @@ function starter_enqueue_assets()
   // Google Fonts
   wp_enqueue_style(
     "google-fonts",
-    "https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&family=Sacramento&display=swap",
+    "https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&family=Marcellus&display=swap",
     [],
     null,
   );
